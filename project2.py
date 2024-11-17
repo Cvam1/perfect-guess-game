@@ -2,10 +2,9 @@
 
 import random 
 n = random.randint( 1,100)
-a = -1 # yee isliye likha h kyuki agar loop mai kuch chal rha h to uska start batana jaruri hota h 
-guess = 1 #same  as line no 3
-#mai dono value ka start point kaha se h yee likhne k liye ye kiya h use 
-while(a !=n): # iska matlab h ki jb tk yee condition true hogi tb tk yee run kre ga 
+a = -1 
+guess = 1  
+while(a !=n):  
     a = int(input("Guess the number"))
     if(a>n):
         print("Lower number please")
